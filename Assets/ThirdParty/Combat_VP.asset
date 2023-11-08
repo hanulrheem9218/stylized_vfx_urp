@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8688760099329336000
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0.23270439, g: 0.3227127, b: 0.3490566, a: 1}
+  center:
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.3
+  smoothness:
+    m_OverrideState: 1
+    m_Value: 1
+  rounded:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &-4067967270619798025
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1a0912ccc82aa49bc9c20a5f3409b2, type: 3}
+  m_Name: AmplifyOcclusionVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  ApplyMethod:
+    m_OverrideState: 1
+    m_Value: 0
+  SampleCount:
+    m_OverrideState: 1
+    m_Value: 1
+  RampTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  Intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  Tint:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  Radius:
+    m_OverrideState: 1
+    m_Value: 2
+  PowerExponent:
+    m_OverrideState: 1
+    m_Value: 1.8
+  Bias:
+    m_OverrideState: 0
+    m_Value: 0.05
+  Thickness:
+    m_OverrideState: 1
+    m_Value: 1
+  Downsample:
+    m_OverrideState: 1
+    m_Value: 1
+  CacheAware:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeStart:
+    m_OverrideState: 0
+    m_Value: 100
+  FadeLength:
+    m_OverrideState: 0
+    m_Value: 50
+  FadeToIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeToTint:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  FadeToRadius:
+    m_OverrideState: 0
+    m_Value: 2
+  FadeToPowerExponent:
+    m_OverrideState: 0
+    m_Value: 1
+  FadeToThickness:
+    m_OverrideState: 0
+    m_Value: 1
+  BlurEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurRadius:
+    m_OverrideState: 1
+    m_Value: 3
+  BlurPasses:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurSharpness:
+    m_OverrideState: 1
+    m_Value: 15
+--- !u!114 &-3725003998935344324
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1a0912ccc82aa49bc9c20a5f3409b2, type: 3}
+  m_Name: AmplifyOcclusionVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  ApplyMethod:
+    m_OverrideState: 1
+    m_Value: 0
+  SampleCount:
+    m_OverrideState: 1
+    m_Value: 1
+  RampTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  Intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  Tint:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  Radius:
+    m_OverrideState: 1
+    m_Value: 2
+  PowerExponent:
+    m_OverrideState: 1
+    m_Value: 1.8
+  Bias:
+    m_OverrideState: 0
+    m_Value: 0.05
+  Thickness:
+    m_OverrideState: 1
+    m_Value: 1
+  Downsample:
+    m_OverrideState: 1
+    m_Value: 1
+  CacheAware:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeStart:
+    m_OverrideState: 0
+    m_Value: 100
+  FadeLength:
+    m_OverrideState: 0
+    m_Value: 50
+  FadeToIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeToTint:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  FadeToRadius:
+    m_OverrideState: 0
+    m_Value: 2
+  FadeToPowerExponent:
+    m_OverrideState: 0
+    m_Value: 1
+  FadeToThickness:
+    m_OverrideState: 0
+    m_Value: 1
+  BlurEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurRadius:
+    m_OverrideState: 1
+    m_Value: 3
+  BlurPasses:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurSharpness:
+    m_OverrideState: 1
+    m_Value: 15
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Combat_VP
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 629958787553485764}
+  - {fileID: -8688760099329336000}
+--- !u!114 &629958787553485764
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0.4
+  contrast:
+    m_OverrideState: 1
+    m_Value: 5
+  colorFilter:
+    m_OverrideState: 1
+    m_Value: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 79
+  saturation:
+    m_OverrideState: 1
+    m_Value: -10
+--- !u!114 &2222163263818597051
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1a0912ccc82aa49bc9c20a5f3409b2, type: 3}
+  m_Name: AmplifyOcclusionVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  ApplyMethod:
+    m_OverrideState: 0
+    m_Value: 0
+  SampleCount:
+    m_OverrideState: 1
+    m_Value: 0
+  RampTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 9d9b47ac4caa8da4cbffb20c0371cf41, type: 3}
+  Intensity:
+    m_OverrideState: 1
+    m_Value: 0.4
+  Tint:
+    m_OverrideState: 0
+    m_Value: {r: 0.21960784, g: 0.19607843, b: 0.25882354, a: 1}
+  Radius:
+    m_OverrideState: 1
+    m_Value: 6
+  PowerExponent:
+    m_OverrideState: 1
+    m_Value: 1
+  Bias:
+    m_OverrideState: 1
+    m_Value: 0.99
+  Thickness:
+    m_OverrideState: 1
+    m_Value: 0
+  Downsample:
+    m_OverrideState: 1
+    m_Value: 1
+  CacheAware:
+    m_OverrideState: 1
+    m_Value: 1
+  FadeEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeStart:
+    m_OverrideState: 1
+    m_Value: 5
+  FadeLength:
+    m_OverrideState: 1
+    m_Value: 50
+  FadeToIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeToTint:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  FadeToRadius:
+    m_OverrideState: 1
+    m_Value: 0
+  FadeToPowerExponent:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeToThickness:
+    m_OverrideState: 1
+    m_Value: 0
+  BlurEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurRadius:
+    m_OverrideState: 1
+    m_Value: 4
+  BlurPasses:
+    m_OverrideState: 1
+    m_Value: 2
+  BlurSharpness:
+    m_OverrideState: 1
+    m_Value: 5
+--- !u!114 &5827662655559951437
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1a0912ccc82aa49bc9c20a5f3409b2, type: 3}
+  m_Name: AmplifyOcclusionVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  ApplyMethod:
+    m_OverrideState: 1
+    m_Value: 1
+  SampleCount:
+    m_OverrideState: 1
+    m_Value: 3
+  RampTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  Intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  Tint:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  Radius:
+    m_OverrideState: 1
+    m_Value: 2
+  PowerExponent:
+    m_OverrideState: 1
+    m_Value: 1.8
+  Bias:
+    m_OverrideState: 0
+    m_Value: 0.05
+  Thickness:
+    m_OverrideState: 1
+    m_Value: 1
+  Downsample:
+    m_OverrideState: 1
+    m_Value: 1
+  CacheAware:
+    m_OverrideState: 1
+    m_Value: 0
+  FadeEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  FadeStart:
+    m_OverrideState: 1
+    m_Value: 100
+  FadeLength:
+    m_OverrideState: 1
+    m_Value: 50
+  FadeToIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeToTint:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  FadeToRadius:
+    m_OverrideState: 0
+    m_Value: 2
+  FadeToPowerExponent:
+    m_OverrideState: 0
+    m_Value: 1
+  FadeToThickness:
+    m_OverrideState: 0
+    m_Value: 1
+  BlurEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurRadius:
+    m_OverrideState: 1
+    m_Value: 3
+  BlurPasses:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurSharpness:
+    m_OverrideState: 1
+    m_Value: 15
+--- !u!114 &8599862436164207024
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1a0912ccc82aa49bc9c20a5f3409b2, type: 3}
+  m_Name: AmplifyOcclusionVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  ApplyMethod:
+    m_OverrideState: 1
+    m_Value: 0
+  SampleCount:
+    m_OverrideState: 1
+    m_Value: 2
+  RampTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  Intensity:
+    m_OverrideState: 1
+    m_Value: 0.5
+  Tint:
+    m_OverrideState: 0
+    m_Value: {r: 0.21960784, g: 0.19607843, b: 0.25882354, a: 1}
+  Radius:
+    m_OverrideState: 1
+    m_Value: 2
+  PowerExponent:
+    m_OverrideState: 1
+    m_Value: 3
+  Bias:
+    m_OverrideState: 1
+    m_Value: 0.99
+  Thickness:
+    m_OverrideState: 0
+    m_Value: 0
+  Downsample:
+    m_OverrideState: 0
+    m_Value: 1
+  CacheAware:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  FadeStart:
+    m_OverrideState: 1
+    m_Value: 5
+  FadeLength:
+    m_OverrideState: 1
+    m_Value: 50
+  FadeToIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  FadeToTint:
+    m_OverrideState: 0
+    m_Value: {r: 0.15735134, g: 0.46263036, b: 0.4811321, a: 1}
+  FadeToRadius:
+    m_OverrideState: 1
+    m_Value: 32
+  FadeToPowerExponent:
+    m_OverrideState: 0
+    m_Value: 16
+  FadeToThickness:
+    m_OverrideState: 0
+    m_Value: 1
+  BlurEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurRadius:
+    m_OverrideState: 1
+    m_Value: 3
+  BlurPasses:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurSharpness:
+    m_OverrideState: 1
+    m_Value: 15
